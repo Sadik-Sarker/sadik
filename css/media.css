@@ -1,0 +1,81 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  header {
+    padding: 20px 0 0;
+  }
+  .container {
+    width: 80%;
+  }
+  .header_text h2 {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .header_text h1 {
+    font-size: 17px;
+  }
+  .header_text p {
+    font-size: 8px;
+    padding-right: 20%;
+  }
+  .common-h1 {
+    font-size: 11px;
+    margin: 2px 0;
+  }
+  .education-heading .hr {
+    height: 1px;
+    background-color: #6c85a7;
+    box-shadow: 1px 1px 2px 0px #1a467d;
+    margin: 0px 0px;
+  }
+  .education {
+    padding-top: 2px;
+  }
+  .education-heading .my-photo {
+    right: 0%;
+    bottom: 0%;
+  }
+  .education-body {
+    margin-top: 0;
+  }
+  .education-body ul {
+    margin-left: 10%;
+  }
+  .education-body ul li {
+    margin-bottom: 0;
+  }
+  .education-body ul li p {
+    font-size: 9px;
+    line-height: 12px;
+  }
+  .computer .education-body ul li,
+  .language .education-body ul li,
+  .extra .education-body ul li,
+  .personal .education-body ul li,
+  .interest .education-body ul li {
+    margin-bottom: 0px;
+    line-height: 17px;
+  }
+  .reference-left {
+    font-size: 9px;
+  }
+  .reference-right {
+    font-size: 9px;
+  }
+  .reference-body {
+    margin-top: 4px;
+  }
+  .reference-left p {
+    line-height: 15px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .container {
+    width: 80%;
+  }
+}
